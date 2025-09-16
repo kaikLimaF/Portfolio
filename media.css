@@ -26,4 +26,10 @@
     .projetos .cards h2{
         font-size: 2vh;
     }
+    
+    p, h1, h2, h3, li {
+  word-wrap: break-word; /* quebra palavras grandes que ultrapassem o container */
+  overflow-wrap: break-word;
+}
+
 }
