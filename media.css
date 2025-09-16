@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-direction: row;   /* garante que fique lado a lado */
+        justify-content: space-between;
+        gap: 10vh;             /* diminui o espaço no mobile */
+        padding: 2vh;
+    }
+
+    .cabecalho img {
+        width: 10vh;
+        height: auto;
+    }
+
+    .menu .navegacao ul li {
+        margin: 1vh; /* menos espaço entre links no celular */
+    }
+
+    .menu .navegacao ul li a {
+        font-size: 10px; /* letras um pouco menores */
+    }
+
+    .footer{
+        padding: 5vh;
+    }
+
+    .projetos .cards h2{
+        font-size: 2vh;
+    }
+}
