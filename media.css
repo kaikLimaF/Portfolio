@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+    body {
+        margin: 0 auto;
+        overflow-x: hidden; /* Impede a rolagem horizontal */
+    }
+
+    /* Quebra palavras grandes para evitar estouro de contêiner */
+    p, h1, h2, h3, li {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10vh; /* Diminui o espaço no mobile */
+        padding: 2vh;
+    }
+
+    .cabecalho img {
+        width: 10vh;
+        height: auto;
+    }
+
+    .menu .navegacao ul li {
+        margin: 1vh; /* Menos espaço entre links */
+    }
+
+    .menu .navegacao ul li a {
+        font-size: 10px; /* Letras um pouco menores */
+    }
+
+    .texto-home {
+        width: 90%; /* Usa porcentagem para se adaptar à tela */
+    }
+
+    .botoes-home button {
+        width: 18vh; /* Ajusta a largura dos botões */
+    }
+
+    .projetos .cards h2 {
+        font-size: 2vh;
+    }
+
+    .footer {
+        padding: 5vh 15px; /* Adiciona preenchimento lateral */
+        text-align: center; /* Centraliza o texto dentro dos elementos */
+        justify-items: center; /* Centraliza os próprios elementos no grid */
+    }
+
+    .footer p {
+        width: auto; /* Permite que o parágrafo se ajuste */
+    }
+
+    .footer .redes-sociais .email {
+        justify-content: center; /* Centraliza o item de e-mail */
+    }
+
+    .footer .redes-sociais ul {
+        justify-content: center; /* Centraliza os ícones sociais */
+    }
+}

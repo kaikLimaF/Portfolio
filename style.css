@@ -1,0 +1,248 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+
+/*CABEÇALHO \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/ 
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    text-align: center;
+    padding: 1vh;
+    gap: 40vh;
+}
+
+.cabecalho img{
+    width: 12vh;
+    height: 6vh;
+    margin-right: 10px;
+    background-size: cover;
+    
+    
+}
+
+.menu .navegacao ul li {
+    display: inline;
+    margin:3vh;
+}
+.menu .navegacao ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*MAIN \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/ 
+
+.home{
+    text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+}
+
+.home .img-home{
+    position: relative;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    background-size: cover;
+   
+}
+
+.texto-home{
+    width: 60vh;
+    margin: 0 auto;
+    color: white;
+    margin-top: 3vh;
+}
+
+.texto-home h1{
+    color: white;
+    font-size: 5vh;
+    margin-bottom: 5vh;
+}
+
+.texto-home p{
+    color: rgb(190, 190, 190);
+    font-size: 2vh;
+    line-height: 3vh;
+}
+
+/*BOTOES \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/ 
+
+.botoes-home {
+    display: flex;
+    border-radius: 50px;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-top: 10vh;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.botoes-home button{
+    border-radius: 50px;
+    width: 15vh;
+    height: 5vh;
+    border: none;
+    font-size: 2vh;
+    cursor: pointer;
+    width: 20vh;
+    height: 5vh;
+}
+.botoes-home .botao-cv{
+    background: transparent;  /* sem fundo */
+    border: 2px solid #fff7f7;   
+    color: #ffffff;             
+}
+
+/*LINGUAGENS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/ 
+.linguagens{
+   margin-top: 10vh;  
+   text-align: center;
+    color: white;
+    margin-bottom: 10vh;
+}
+
+.linguagens .icones ul {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;         
+    list-style: none;        
+    padding: 0;
+    margin: 0;
+}
+
+
+.linguagens .icones ul li {
+    margin: 3vh;
+}
+
+.linguagens .icones ul li img{
+    width: 5vh;
+    height: 5vh;
+    margin: 2vh;
+    background-size: cover;
+    opacity: 0.8;
+}
+.linguagens .icones ul li p{
+    opacity: 0.8;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.linguagens h1{
+    font-size: 3vh;
+     opacity: 0.8;
+    font-family: 'Courier New', Courier, monospace;
+}   
+/*PEOJETOS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/ 
+
+.projetos{
+    text-align: center;
+    margin-bottom: 10vh;
+}
+
+.projetos .cards ul {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;         
+    list-style: none;        
+    padding: 0;
+    margin: 0;
+    gap: 10vh;
+}
+
+
+.projetos .cards img{
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    width: 20vh;
+    height: 15vh;
+    border-radius: 10px;
+    background-size: cover;
+    margin-bottom: 1    vh;
+    filter: brightness(60%)
+    
+}
+
+.projetos .cards img:hover {
+    transform: scale(1.2); /* Aumenta ligeiramente o tamanho da imagem */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra para dar profundidade */
+    filter: brightness(100%);
+}
+
+.projetos .cards h2{
+    position: relative;
+    top: -10vh;
+}
+
+.projetos .cards p{
+    position: relative;
+    top: -5vh;
+    width: 20vh;
+    font-size: 1.5vh;
+    color: rgb(190, 190, 190);
+    line-height: 2vh;
+}
+
+/*footer \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/ 
+
+.footer{
+    display: grid;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    text-align: left;
+    font-size: 2.0vh;
+    bottom: 0;  
+    width: 100%;
+    margin-top: 20vh;
+    justify-content: center;
+    gap: 3vh;
+    
+}
+
+.footer img{
+    width: 3vh;
+    height: 3vh;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.footer .redes-sociais ul{  
+display: flex;
+gap: 2vh;
+
+}
+
+.footer .redes-sociais ul li{
+    list-style: none;
+    margin-right: 2vh;
+    
+    
+}
+
+.footer h1{
+    font-size: 2vh;
+    margin-right: 2vh;
+    opacity: 0.8;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer p{
+    width: 60vh;
+    opacity: 0.8;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer .redes-sociais .email{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0.8;
+}
