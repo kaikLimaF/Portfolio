@@ -16,5 +16,5 @@
 });
 
 document.getElementById("botao-cv").addEventListener("click", () => {
-  window.open("/img/CurriculoJoseKaik.pdf", "_blank");
+  window.open("/img/Profile.pdf", "_blank");
 });
