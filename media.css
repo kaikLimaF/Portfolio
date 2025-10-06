@@ -43,7 +43,6 @@
     }
 
     .footer {
-        padding: 5vh 15px; /* Adiciona preenchimento lateral */
         text-align: center; /* Centraliza o texto dentro dos elementos */
         justify-items: center; /* Centraliza os próprios elementos no grid */
     }
