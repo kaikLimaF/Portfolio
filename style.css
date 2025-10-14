@@ -1,8 +1,11 @@
 body {
     margin: 0 auto;
     padding: 0;
-background: #020024;
-background: linear-gradient(180deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background: #1a1a1a;
+    background-image: url(img/pexelsTextura.jpg);
+    /* Adicione aqui o link para uma imagem de textura sutil */
+    background-blend-mode: multiply;
+    /* Mistura a cor e a textura */
     color: white;
 }
 
@@ -176,7 +179,7 @@ background: linear-gradient(180deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%,
     filter: brightness(60%)
 }
 
-.projetos .cards img:hover {
+q .projetos .cards img:hover {
     transform: scale(1.2);
     /* Aumenta ligeiramente o tamanho da imagem */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
