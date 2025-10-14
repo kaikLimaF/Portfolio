@@ -179,7 +179,7 @@ body {
     filter: brightness(60%)
 }
 
-q .projetos .cards img:hover {
+ .projetos .cards img:hover {
     transform: scale(1.2);
     /* Aumenta ligeiramente o tamanho da imagem */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
