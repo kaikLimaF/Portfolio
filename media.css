@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 768px), (max-height: 900px) {
     body {
         margin: 0 auto;
         overflow-x: hidden; /* Impede a rolagem horizontal */
